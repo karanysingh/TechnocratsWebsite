@@ -1,0 +1,251 @@
+.App {
+    text-align: center;
+    background-color: #eff2f5;
+  }
+  .ui.segment {
+    border: none;
+    box-shadow: 3px 10px 10px -3px lightgrey;
+}
+.productTitle{
+    color: #2f2d54;
+    padding-block-end: 20px;
+    padding-block-start: 10px;
+    padding-right: 50px;
+  }
+  .descFormat{
+    color: #c6c5cb;
+  }
+  .ui.card.SmallCard{
+    background-color: orange;
+    padding:8%;
+    color: #2f2d54;
+    border-radius: 1rem;
+    box-shadow: 3px 10px 10px -3px lightgrey;
+  }
+  .header.smallcardtitle {
+    font-size: 20px;
+    color:blue;
+  }
+  .ui.segment.MassiveCard {
+    border-radius: 1rem;
+    box-shadow: 3px 10px 10px -3px lightgrey;
+    border: none;
+  }
+  .searchBar{
+    border-radius: 2ch;
+    background-color: #dadada;
+    padding: 2%;
+  }
+  
+  .ui.segment.sidebar{
+    background-color: orange;
+    height: 80%;
+    right:0;
+  }
+  .ui.sidebar.menu {
+    top: 130px;
+    padding:1%;
+  }
+  .ui.segment.headerCard{
+    border-radius: 1rem;
+    top:-35px;
+    height: 100px;
+  }
+  
+  .ui.label.statusLabel {
+    width: 70px;
+    float: right;
+    text-align: center;
+  }
+  .ui.card.SidebarCard {
+    border-radius: 15px;
+    box-shadow: 0px 5px 10px -1px grey;
+  }
+  /* Media Queries */
+  @media only screen and (min-width: 800px) {
+    .productImage{
+      height: 200px;
+      margin-top: -10px;
+  
+    }
+    .searchBar{
+      margin-left: 130px;
+    }
+  
+    .uniformRow{
+    height:220px;
+    }
+    }
+    .row.sect11 {
+      /* background-image:url('http://localhost:3000/bg13.png'); */
+      /* background-color: red; */
+      height:30vh;
+      background-size: contain;
+      background-repeat: no-repeat;
+      z-index:5;
+    }
+    .row.sect12 {
+      background-image:url('http://localhost:3000/bg13.png');
+      /* background-color: red; */
+      height:70vh;
+      background-size: contain;
+      background-repeat: no-repeat;
+      z-index:5;
+    }
+    .DivOneHead {
+      text-align: center;
+      color:rgb(2, 2, 71);
+    }
+    .DivOneImage {
+      margin-left: 30px;
+      padding-block-end: 60px;
+      padding-block-start: 60px;
+    }
+
+    .DivTwoHead {
+      text-align: left;
+      color:white;
+    }
+    .DivTwoImage {
+      margin-left: 100px;
+      margin-top: 320px;
+      width: 500px;
+    }
+    .divIm31 {
+      margin-top:15px; 
+       margin-left:25px;
+      text-align:center;
+      width:100%;
+    }
+    .DivThreeHead {
+      margin-top: 100px;
+      font-size: 31px;
+      margin-left: 10px;
+      color:white;
+      text-align: center;
+    }
+    .ui.button.DivThreeBtn {
+      width:100px;
+      height:40px;
+      border-radius: 10px;
+      margin-top:50px;
+    }
+    .ui.olive.button.DivOneBtn {
+      box-shadow: 0 0 0 0 rgba(34,36,38,.15) inset;
+      border-radius: 1px;
+      width: 100px;
+  }
+.row.sect21 {
+  background-image:url('http://localhost:3000/bg21.svg');
+  height:70vh;
+  width: 100vh;  
+}
+.row.sect22 {
+  /* background-image:url('http://localhost:3000/bg21.svg'); */
+  height:30vh;
+  width: 100vh;
+  text-align: left;  
+}
+.row.sect32 {
+  /* background-image:url('http://localhost:3000/bg21.svg'); */
+  background-color: orange;
+  height:10vh;
+  width: 100vh;  
+}
+
+    .layer2 {
+      background-image:url('http://localhost:3000/bg1.svg');
+      /* background-color: red; */
+      height:100vh;
+      width: 100vh;
+      top:0;
+      z-index:0;
+      display:none;
+      position: absolute;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    /* Technocrats Website */
+    .one.wide.column {
+      text-align: -webkit-center;
+  }
+  .ui.segment.MainHeader {
+    background-color: black;
+    height: 100px;
+    color: 'white';
+    position:fixed;
+    width: 100%;
+    opacity: 1;
+    z-index: 999;
+    box-shadow: 0px 2px 20px -5px white;
+}
+
+.sect31 {
+  background-color: black;
+  /* background-image:url('http://localhost:3000/bg21.svg'); */
+  height:105vh;
+  margin-top: -20px;
+  width:100%;  
+}
+.divisionsPara {
+  padding:5%;
+  text-align:left;
+  font-size: 30px;
+}
+.TcrDivisions{
+  height: 100vh;
+}
+.Logo {
+  height: 70px;
+}
+    .DivThreeImage {
+      animation: rotate 2s infinite linear;
+      margin-top: 300px;
+      width: 300px;
+      box-shadow:0px 2px 20px 0px white;
+      background-position: center;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-image: url('http://localhost:3000/circleobject.svg');
+      height: 300px;
+      border-radius: 50%;
+    }
+    .DivThreeImage:hover {
+      animation: rotateFast 1s linear infinite;
+      cursor: pointer;
+    }
+    @keyframes rotate {
+      0%   {
+        transform: rotateZ(360deg);
+        opacity:1;
+        box-shadow:0px 2px 30px 0px white;
+      }
+      50% {
+        transform: rotateZ(350deg);
+        opacity:1;
+        box-shadow:0px 2px 20px 0px white;
+      }
+      100%{
+        transform: rotateZ(360deg);
+        opacity:1;
+        box-shadow:0px 2px 20px 0px white;
+      }
+    }
+    @keyframes rotateFast {
+      0%   {
+        transform: rotateZ(0deg);
+        opacity:1;
+        box-shadow:0px 2px 30px 0px red;
+      }
+      50%  {
+        transform: rotateZ(180deg);
+        opacity:1;
+        box-shadow:0px 2px 30px 0px red;
+      }
+      100%{
+        transform: rotateZ(360deg);
+        opacity:1;
+        box-shadow:0px 2px 20px 0px red;
+      }
+    }
